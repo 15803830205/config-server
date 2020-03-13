@@ -19,3 +19,5 @@ logging:
     org.springframework.cloud.netflix.feign: debug
 server:
   port: 8888
+env:
+  dev
