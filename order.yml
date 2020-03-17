@@ -12,6 +12,12 @@ spring:
     username: root
     password: 123456
     url: jdbc:mysql://127.0.0.1:3306/ls?useUnicode=true&characterEncoding=utf-8
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    password:
+    timeout: 500
 #  cloud:
 #    config:
 #      discovery:
